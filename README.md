@@ -3,7 +3,14 @@ This README would normally document whatever steps are necessary to get your app
 
 ##Examples for testing###
 * GET http://localhost:8080/tickets/11
+
 * PUT http://localhost:8080/tickets/11
+Body : {
+  "id": 11,
+  "destinationId": 23,
+  "baggageId": "TEST21"
+}
+
 
 ### Overview ###
 *API service for a demo Flights app*
